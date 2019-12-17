@@ -1,6 +1,8 @@
 import cv2
 
-#Tras os dados do classificador de faces
+#identificar olhos utilizando o cascades
+
+#Traz os dados do classificador de faces
 classificador = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 #Traz os dados do classificador de olhos
